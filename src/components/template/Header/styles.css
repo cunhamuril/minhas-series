@@ -1,0 +1,24 @@
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    transition: ease-in 0.1s;
+}
+
+#logo:hover {
+    color: var(--color-3);
+}
+
+#navitem {
+    transition: ease-in 0.1s;
+    border-radius: 2px;    
+    margin-left: 10px;
+    color: #fff;
+}
+
+#navitem:hover {
+    background-color: var(--color-3);    
+}
+
+.active {
+    background-color: var(--color-3);    
+}

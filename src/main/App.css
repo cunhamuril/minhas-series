@@ -1,0 +1,27 @@
+:root {
+    --color-hover: #ad1010;
+    --color-1: #720101;
+    --color-2: #BC0000;
+    --color-3: #e02a2a;
+    --color-4: #b1dbbe;
+    --color-dark: #303030;
+}
+
+*{
+    font-family: 'Montserrat', serif;
+}
+
+main {
+    background-color: var(--color-dark);
+    min-height: 100vh;
+}
+
+#jumbotron {
+    background: #000;
+    color: var(--color-3);
+    border-bottom: solid 1px var(--color-3);
+}
+
+#root {
+    background-color: var(--color-dark);  
+}

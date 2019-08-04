@@ -1,0 +1,12 @@
+#header {
+    background: rgba(0, 0, 0, 0.7)
+}
+
+@media (max-width: 768px) {
+    #poster {
+        max-width: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
