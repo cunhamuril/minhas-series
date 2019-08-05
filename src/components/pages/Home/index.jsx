@@ -4,13 +4,15 @@ import './styles.css'
 
 const Home = () => {
     const Greeting = () => {
-        const dNow = new Date()        
-        if (dNow.getHours() >= 19 && dNow.getHours() < 6) {
-            return <h1 className="display-4">Boa noite!</h1>
-        } else if (dNow.getHours() >= 6 && dNow.getHours() < 12)  {
-            return <h1 className="display-4">Bom dia!</h1>
+        const wlcm = 'Seja bem vindo.'        
+        const dateNow = new Date()
+
+        if (dateNow.getHours() >= 6 && dateNow.getHours() < 12) {
+            return <h1 className="display-4">Bom dia! {wlcm}</h1>
+        } else if (dateNow.getHours() >= 12 && dateNow.getHours() < 19) {
+            return <h1 className="display-4">Boa tarde! {wlcm}</h1>
         } else {
-            return <h1 className="display-4">Boa tarde!</h1>
+            return <h1 className="display-4">Boa noite! {wlcm}</h1>
         }
     }
 

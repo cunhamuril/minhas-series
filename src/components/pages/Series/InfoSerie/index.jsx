@@ -142,7 +142,7 @@ const InfoSerie = ({ match }) => {
                                         {genre.name}
                                     </option>)
                                 )}
-                            </select>
+                            </select>                            
                         </div>
                         <div className="form-group">
                             <div className="form-check">
